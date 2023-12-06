@@ -41,6 +41,20 @@ input[type='text']{
     border: 2px solid #f472b6;
 }
 
+.svg{
+    width: 2rem;
+    padding: 0.5rem;
+}
+
+.svg-side{
+    width: 3rem;
+    padding: 0.5rem;
+}
+
+.dash-svg{
+    width: 5rem;
+}
+
 .profile{
     display: flex;
     justify-content: center;
@@ -87,9 +101,17 @@ button{
 .dash-heading{
     font-size: 2.5rem;
     margin-left: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    display: flex;
 }
 
 ul > li{
+    display: flex;
+    align-items: center;
     list-style-type: none;
     font-size: 2rem;
     line-height: 1.5;
