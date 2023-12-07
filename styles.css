@@ -23,10 +23,7 @@
     grid-template-rows: 1fr 1fr;
     background-color: #fce7f3;
     padding-bottom: 1rem;
-    /* box-shadow: 2px 2px 55px rgb(214, 113, 208); */
-    border-bottom: 1px solid ;
     align-items: center;
-    z-index: 1;
 }
 
 .search{
