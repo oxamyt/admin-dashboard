@@ -23,6 +23,10 @@
     grid-template-rows: 1fr 1fr;
     background-color: #fce7f3;
     padding-bottom: 1rem;
+    /* box-shadow: 2px 2px 55px rgb(214, 113, 208); */
+    border-bottom: 1px solid ;
+    align-items: center;
+    z-index: 1;
 }
 
 .search{
@@ -131,7 +135,11 @@ button{
     align-items: center;
 }
 
-span{
+.sidebar span{
+    display: flex;
+}
+
+.dash-span{
     display: flex;
 }
 
@@ -154,10 +162,14 @@ ul > li{
     color: #3A3B3C;
     background-color: #fdf2f8;
     min-height: 200px;
-    border-left: 5px solid #67e8f9;
+    border-left: 5px solid #67e8f9; 
     padding-left: 1rem;
     box-shadow: 3px 3px 10px grey;
     border-radius: 10px;
+}
+
+.card-text{
+    padding-right: 0.25rem;
 }
 
 .svg-card{
@@ -165,6 +177,7 @@ ul > li{
     min-height: 50%;
     justify-content: flex-end;
     align-items: flex-end;
+    padding-right: 1rem;
 }
 
 .announce-card{
@@ -249,6 +262,11 @@ ul > li{
 }
 
 .card-img{
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
+}
+
+.band-name{
+    font-weight: bold;
+   
 }
